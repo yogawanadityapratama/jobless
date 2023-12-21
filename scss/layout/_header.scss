@@ -1,0 +1,32 @@
+.header {
+    .s32 {
+        text-align: center;
+        margin-top: 135px;
+    }
+    .s16 {
+        text-align: center;
+        margin-top: 16px;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        .button-left {
+            a {
+                padding: 12px 17px;
+                border-radius: 100px;
+                text-decoration: none;
+                background-color: $primary-color;
+                color: $secondary-color;
+            }
+        }
+        .button-right {
+            a {
+                padding: 12px 17px;
+                border-radius: 100px;
+                color: $primary-color;
+            }
+        }
+    }
+}

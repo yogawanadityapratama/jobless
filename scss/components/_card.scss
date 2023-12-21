@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-top: 179px;
+    .card-content {
+        width: 360px;
+        height: fit-content;
+        padding: 25px;
+        background-color: $secondary-color;
+        border-radius: 8px;
+        margin-right: 16px;
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .center {
+            margin-bottom: 40px;
+        }
+        .bottom {
+            .button {
+                padding: 5px 15px;
+                background-color: $primary-color;
+                color: $secondary-color;
+                border-radius: 100px;
+            }
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

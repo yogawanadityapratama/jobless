@@ -1,0 +1,32 @@
+nav {
+    margin-top: 58px;
+    .logo {
+        color: $tertiary-color;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+    ul {
+        display: flex;
+        li {
+            list-style: none;
+            a {
+                margin-left: 25px;
+                margin-right: 25px;
+                text-decoration: none;
+                color: $tertiary-color;
+            }
+        }
+    }
+    .button {
+        padding: 10px 25px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        a {
+            text-decoration: none;
+            color: $tertiary-color;
+        }
+    }
+}
